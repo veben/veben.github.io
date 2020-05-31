@@ -3,13 +3,12 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Name
-
+name: veben
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Sofware Engineer
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://github.com/veben/veben.github.io/blob/master/images/veben-avatar.png
 
 #
 # Flags below are optional
@@ -21,13 +20,13 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: veben
   instagram:
-  linkedin:
+  linkedin: benoitveyriere
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: 8718377/veben
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
@@ -73,7 +72,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 

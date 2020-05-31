@@ -1,15 +1,25 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-Some information about you!
+#Computer Science Engineer
+#Full Stack Developer
+#Consultant
+#Cloud Enthusiast
+#Stackoverflow Addict
+#Github Contributor
+#People Developer
 
-### More Information
+### 🧰 Technlogies
 
-A place to include any other types of information that you'd like to include about yourself.
+Java ▪ Spring boot ▪ Python ▪ Angular ▪ Git ▪ Gitlab ▪ Maven ▪ Docker ▪ AWS ▪ Microservices ▪ PostgreSQL ▪ MongoDB
+
+### 🎀 Certifications
+
+SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[benoit.veyriere@gmail.com](mailto:benoit.veyriere@gmail.com)
