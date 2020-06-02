@@ -27,9 +27,17 @@
           </div>
 
           <nav>
+            <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+            </label>
+            <em>Dark theme</em>
+
+
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
+
         </header>
       </div>
     </div>
@@ -48,4 +56,6 @@
 
     {% include analytics.html %}
   </body>
+
+  <script type="text/javascript" src="{{ site.baseurl }}/theme.js"></script>
 </html>

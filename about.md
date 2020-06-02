@@ -20,6 +20,6 @@ Java ▪ Spring boot ▪ Python ▪ Angular ▪ Git ▪ Gitlab ▪ Maven ▪ Doc
 
 SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA ▪ SAFe® Agilist (expired)
 
-### Contact me
+### 📧 Contact
 
 [benoit.veyriere@gmail.com](mailto:benoit.veyriere@gmail.com)
