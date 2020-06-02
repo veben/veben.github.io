@@ -38,6 +38,10 @@ body {
   background: var(--body-bg-color);
   font: 18px/1.4 $helvetica;
   color: var(--body-font-color);
+
+  @include mobile {
+    font: 14px/1.4 $helvetica;
+  }
 }
 
 .container {
