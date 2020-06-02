@@ -5,20 +5,26 @@ permalink: /about/
 ---
 
 #Computer Science Engineer
+
 #Full Stack Developer
+
 #Consultant
+
 #Cloud Enthusiast
+
 #Stackoverflow Addict
+
 #Github Contributor
+
 #People Developer
 
-### 🧰 Technlogies
+### 🧰 Technologies
 
 Java ▪ Spring boot ▪ Python ▪ Angular ▪ Git ▪ Gitlab ▪ Maven ▪ Docker ▪ AWS ▪ Microservices ▪ PostgreSQL ▪ MongoDB
 
 ### 🎀 Certifications
 
-SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA 
+SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA ▪ SAFe® Agilist (expired)
 
 ### Contact me
 
