@@ -4,18 +4,12 @@ title: About
 permalink: /about/
 ---
 
-#Computer Science Engineer
-
-#Full Stack Developer
-
-#Consultant
-
-#Cloud Enthusiast
-
-#Stackoverflow Addict
-
-#Github Contributor
-
+#Computer Science Engineer  
+#Full Stack Developer  
+#Consultant  
+#Cloud Enthusiast  
+#Stackoverflow Addict  
+#Github Contributor  
 #People Developer
 
 ### 🧰 Technologies
