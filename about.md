@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-#Computer Science Engineer  
 #Full Stack Developer  
 #Consultant  
 #Cloud Enthusiast  

@@ -254,6 +254,7 @@ nav {
 
     @include mobile {
       margin: 0 20px 0 5px;
+      font-size: 0.9rem;
     }
   }
 
@@ -310,6 +311,7 @@ nav {
   background-color: var(--footer-bg-color);
   position: absolute;
   width: 100%;
+  bottom: 0;
 }
 
 footer {
@@ -327,6 +329,12 @@ footer {
   height: 34px;
   position: relative;
   width: 60px;
+
+  @include mobile {
+    height: 17px;
+    width: 40px;
+    transform: translateY(15%);
+  }
 }
 
 .theme-switch input {
@@ -353,6 +361,13 @@ footer {
   position: absolute;
   transition: .4s;
   width: 26px;
+
+  @include mobile {
+    height: 13px;
+    width: 13px;
+    bottom: 2px;
+    left: 0;
+  }
 }
 
 input:checked + .slider {
