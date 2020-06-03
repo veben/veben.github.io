@@ -312,6 +312,10 @@ nav {
   position: absolute;
   width: 100%;
   bottom: 0;
+
+  @include mobile {
+    position: 0;
+  }
 }
 
 footer {
