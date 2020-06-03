@@ -1,17 +1,8 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
 
 :root {
     --body-bg-color: #fff;
@@ -19,16 +10,79 @@
     --h1-font-color: #333;
     --a-font-color: #4183C4;
     --footer-bg-color: #eee;
+    --code-highlight-color: #eff0f1;
 }
 
-[data-theme="dark"] {
-    --body-bg-color: #161625;
+[theme="dark"] {
+    --body-bg-color: #2d2d2d;
     --body-font-color: #e1e1ff;
     --h1-font-color: #49fb35;
     --a-font-color: #9A97FA;
     --footer-bg-color: #42408F;
+    --code-highlight-color: #3d3d3d;
 }
 
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+
+  @include mobile {
+    height: 17px;
+    width: 40px;
+    transform: translateY(15%);
+  }
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+
+  @include mobile {
+    height: 13px;
+    width: 13px;
+    bottom: 2px;
+    left: 0;
+  }
+}
+
+input:checked + .slider {
+  background-color: #49fb35;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
 
 html {
   font-size: 100%;
@@ -166,14 +220,6 @@ img {
     clear: both;
 }
 
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
 .wrapper-masthead {
   margin-bottom: 50px;
 }
@@ -272,10 +318,6 @@ nav {
   }
 }
 
-//
-// .main
-//
-
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -288,11 +330,10 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
+    font-size: 16px;
     font-style: italic;
   }
 
@@ -309,13 +350,6 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   background-color: var(--footer-bg-color);
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-
-  @include mobile {
-    position: unset;
-  }
 }
 
 footer {
@@ -327,65 +361,3 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
-
-.theme-switch {
-  display: inline-block;
-  height: 34px;
-  position: relative;
-  width: 60px;
-
-  @include mobile {
-    height: 17px;
-    width: 40px;
-    transform: translateY(15%);
-  }
-}
-
-.theme-switch input {
-  display:none;
-}
-
-.slider {
-  background-color: #ccc;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: .4s;
-}
-
-.slider:before {
-  background-color: #fff;
-  bottom: 4px;
-  content: "";
-  height: 26px;
-  left: 4px;
-  position: absolute;
-  transition: .4s;
-  width: 26px;
-
-  @include mobile {
-    height: 13px;
-    width: 13px;
-    bottom: 2px;
-    left: 0;
-  }
-}
-
-input:checked + .slider {
-  background-color: #49fb35;
-}
-
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
