@@ -314,7 +314,7 @@ nav {
   bottom: 0;
 
   @include mobile {
-    position: 0;
+    position: unset;
   }
 }
 
