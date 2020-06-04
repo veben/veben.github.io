@@ -345,6 +345,16 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+  iframe {
+    width: 37.5vw;
+    height: 80vh;
+
+    @include mobile {
+      width: 95vw;
+      height: 80vh;
+    }
+  }
 }
 
 .wrapper-footer {
