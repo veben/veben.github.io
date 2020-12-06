@@ -8,7 +8,7 @@ comments: false
 Add dark theme to my webpage.
 </p>
 
-The website contains a slider allowing to user to switch between **light** ore **dark** theme:
+The website contains a slider allowing user to switch between **light** ore **dark** theme:
 
 ```html
 <label class="theme-switch" for="checkbox">

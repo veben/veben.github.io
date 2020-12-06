@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-#Solution Architect
+#Solution Architect  
 #Full Stack Developer  
 #Consultant  
 #Cloud Enthusiast  
