@@ -14,11 +14,11 @@ permalink: /about/
 
 ### 🧰 Technologies
 
-Java ▪ Spring boot ▪ Python ▪ Angular ▪ Git ▪ Gitlab ▪ Maven ▪ Docker ▪ AWS ▪ Microservices ▪ PostgreSQL ▪ MongoDB
+Java ▪ Spring boot ▪ Python ▪ Angular ▪ Git ▪ Gitlab ▪ Docker ▪ AWS ▪ Microservices ▪ PostgreSQL ▪ MongoDB
 
 ### 🎀 Certifications
 
-SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA ▪ SAFe® Agilist (expired)
+SCRUM PSM1™ ▪ SCRUM PSPO1™ ▪ AWS CDA ▪ AWS CSAA ▪ SAFe® Agilist
 
 ### 📧 Contact
 

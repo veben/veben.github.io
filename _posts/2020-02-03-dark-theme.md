@@ -18,7 +18,7 @@ The website contains a slider allowing user to switch between **light** ore **da
 <em>Dark theme</em>
 ```
 
-The following CSS code permit the style switching:
+The following CSS code allow style switch:
 ```css
 :root {
     --body-bg-color: #fff;
