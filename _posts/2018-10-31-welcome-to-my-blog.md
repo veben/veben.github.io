@@ -1,7 +1,16 @@
-# veben.github.io
+---
+title: "Welcome to my blog"
+date: 2018-10-31
+tags:
+  - ruby
+  - jekyll
+  - github-pages
+---
+
+I'm excited to share that I've just created my blog and published my first post. You can start your own blog too! Here’s a quick guide to get you started.
 
 ## Getting Started
-You can easily create your own blog by cloning my repository and customizing it to fit your needs. Most of the configurations are managed in the `_config.yml` file.
+You can easily create your own blog by cloning the [Starter repository](https://github.com/mmistakes/mm-github-pages-starter) and customizing it to fit your needs. Most of the configurations are managed in the `_config.yml` file.
 To add a new post, simply create a markdown file in the `_posts` directory that  following this naming convention: `YYYY-MM-DD-name-of-post.md`.
 
 ## Hosting on GitHub Pages
@@ -11,7 +20,7 @@ To host your blog on GitHub Pages, name your repository in this format: `<your-g
 Before publishing your blog, you might want to test it locally. Follow these steps to configure local environment:
 1. Clone the repository
 ```sh
-git clone https://github.com/veben/veben.github.io.git
+git clone https://github.com/<your-github-username>/<your-github-username>.github.io.git
 ```
 2. Install required components. See [here](https://jekyllrb.com/docs/installation/ubuntu/)
 3. Install required gems, listed in `Gemfile`
