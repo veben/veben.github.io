@@ -138,7 +138,7 @@ variable "chart_repository" {
 ```
 
 ### 2. Providers
-In `providers.tf`, cconfigure the Civo and Helm providers:
+In `providers.tf`, configure the Civo and Helm providers:
 ```hcl
 terraform {
   required_providers {
@@ -225,12 +225,12 @@ output "kubeconfig_path" {
 }
 ```
 
-## Deployment
+## Deploying
 - If you have not defined it in the `terraform.tfvars` file, save the Civo API key as an environment variable (replace **** with your actual Civo API key):
 ```sh
 export TF_VAR_api_key=****
 ```
-- Initialize Terraform, plan the deployment, and apply the configuration:
+- Initialize Terraform, plan the deployment, and apply the configurations:
 ```sh
 terraform init
 terraform plan
