@@ -41,7 +41,7 @@ service:
   port: 80
 ```
 
-<img src="https://raw.githubusercontent.com/veben/helm_charts/main/charts/helm_chart_mario_bros/mario_bros_helm_chart.drawio.svg" alt="mario_bros_helm_chart.drawio.svg" style="width:500px;height:auto;">
+<img src="https://raw.githubusercontent.com/veben/helm_charts/main/charts/helm_chart_mario_bros/mario_bros_helm_chart.drawio.svg" alt="mario_bros_helm_chart.drawio.svg" style="width:800px;height:auto;">
 
 ## Deploying the game
 Deploy the game using Helm with the following command:
@@ -52,7 +52,7 @@ helm install mario-bros ./
 ## Testing the game
 After installation, the chart will provide instructions to retrieve the URL to access the game. Copy the URL into a browser to start playing Mario Bros.
 
-<img src="../assets/images/mario-bros-game.png" alt="mario-bros-game" style="width:500px;height:auto;">
+<img src="../assets/images/mario-bros-game.png" alt="mario-bros-game" style="width:800px;height:auto;">
 
 ## IV. Uninstalling the game
 You can uninstall the game with this command:

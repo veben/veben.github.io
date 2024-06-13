@@ -95,11 +95,11 @@ To launch the Gitpod environment, add `https://gitpod.io/#` before your reposito
 
 You can also configure a button in the `README.md` of the repository, or install Gitpod browser extension to create a button on top of repository code.
 
-<img src="../assets/images/gitpod_repo.png" alt="gitpod_repo" style="width:500px;height:auto;">
+<img src="../assets/images/gitpod_repo.png" alt="gitpod_repo" style="width:800px;height:auto;">
 
 Then you can open the environment directly in your browser or in VSCode if you install the Gitpod extension.
 
-<img src="../assets/images/gitpod_vscode.png" alt="gitpod_vscode" style="width:500px;height:auto;">
+<img src="../assets/images/gitpod_vscode.png" alt="gitpod_vscode" style="width:800px;height:auto;">
 
 Each task runs in a dedicated terminal.
 

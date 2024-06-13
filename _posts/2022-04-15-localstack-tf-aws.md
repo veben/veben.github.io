@@ -74,7 +74,7 @@ export AWS_ENDPOINT_URL=http://localhost:4566
 ## Deploying Infrastructure
 Now you can explore its functionalities by trying out a simple pattern composed of **API Gateway** and **DynamoDB**.
 
-<img src="../assets/images/apigateway_dynamodb.png" alt="apigateway_dynamodb.png" style="width:500px;height:auto;">
+<img src="../assets/images/apigateway_dynamodb.png" alt="apigateway_dynamodb.png" style="width:800px;height:auto;">
 
 - Navigate to the directory containing your Terraform files.
 - Deploy your infrastructure in LocalStack using the Terraform wrapper with the following commands:
