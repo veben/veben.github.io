@@ -178,7 +178,7 @@ To clean up the resources, destroy the `deployment` and the `service`:
 kubectl delete service mario-service
 kubectl delete deployment mario-deployment
 ```
-The, destroy the kind cluster:
+Then, destroy the kind cluster:
 ```sh
 terraform destroy --auto-approve
 ```
