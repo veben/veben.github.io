@@ -8,6 +8,11 @@ tags:
 
 I've just added dark mode support to my blog! Now you can easily switch between light and dark themes for a more comfortable reading experience.
 
+<<<<<<< Updated upstream
+=======
+<img src="../assets/images/slider.png" alt="slider" style="width:800px;height:auto;">
+
+>>>>>>> Stashed changes
 ## The HTML code
 Here's the HTML code that adds a slider, allowing users to toggle between **light** and **dark** themes:
 
