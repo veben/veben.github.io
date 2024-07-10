@@ -72,8 +72,6 @@ Again, a future blog post will delve deeper into zsh configurations.
 ### Starship configurations
 [Starship](https://starship.rs/) offers extensive customization for your shell prompt. Here’s how my prompt looks:
 
-This is how my prompt look like:
-
 <img src="../assets/images/shell_prompt.png" alt="shell_prompt" style="width:800px;height:auto;">
 
 You can explore all the configurations and presets [here](https://starship.rs/config/)
