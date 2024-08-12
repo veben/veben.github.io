@@ -4,6 +4,7 @@ date: 2024-03-16
 tags:
   - kubernetes
   - helm
+  - github
   - github-pages
 ---
 
@@ -16,7 +17,7 @@ The associated code is available [here](https://github.com/veben/helm_charts/)
 ## Prerequisites
 **GitHub Account**: You will need a GitHub account to host your Helm charts.
 
-## Setting Up Your Repository
+## Setting up your Repository
 Create a new repository on GitHub to host your Helm charts.
 
 ### 1. Activate Github Pages on the repo
