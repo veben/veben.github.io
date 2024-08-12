@@ -70,7 +70,7 @@ GITHUB_TOKEN=<your_token>
 
 #### 2. Define Registry Address and Increment Logger Version
 - Update the tag version in the `.env` file, replacing `<version>` with your new version
-- Add as the registry domain for the GitHub Container Registry:
+- Specify the GitHub Container Registry domain:
 ```text
 REGISTRY=ghcr.io
 TAG_VERSION=<version>
