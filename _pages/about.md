@@ -15,7 +15,7 @@ I thrive in challenging environments and enjoy learning new technologies and too
 
 - Technical Architect
 - Technical Presales
-- Solution Engineer
+- Solutions Engineer
 - Engineering Manager
 
 ## 🛠️ Technologies
